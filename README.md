@@ -23,7 +23,6 @@ Store values that never change after being set.
     3. ├─ Dictionary: Key-value pairs. `let user = ["name": "Alice", "age": "30"]`
     4. └─ Set: Unordered unique values. `let colors: Set = ["red", "blue", "green"]`
 
-—————————————————————————————————————————
 
 ## Control Flow
  
@@ -142,7 +141,7 @@ func square(of number: Int) -> Int {
 }
 ```
 
-## Control Flow:
+## Control Flow - keywords:
 
 | Keyword       | Definition                                             |
 | ------------- | ------------------------------------------------------ |
