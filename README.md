@@ -27,18 +27,33 @@ Store values that never change after being set.
 
 ## Control Flow
  
-1. if-else Statement: Used to run code based on conditions.
+### 1. if-else Statement:
+Used to run code based on conditions.
 
-`let score = 85
+```
+let score = 85
 if score >= 90 {
     print("A grade")
 } else if score >= 80 {
     print("B grade")
 } else {
     print("Needs improvement")
-}`
+}
+```
 
-2. switch Statement: Used to check a value against multiple cases.
+let score = 85
+
+if score >= 90 {
+    print("A grade")
+} else if score >= 80 {
+    print("B grade")
+} else {
+    print("Needs improvement")
+}
+
+
+### 2. switch Statement: 
+Used to check a value against multiple cases.
 
 `let day = "Monday"
 switch day {
@@ -50,7 +65,8 @@ default:
     print("Just another day")
 }`
 
-3. while loop: Repeats code while a condition is true.
+### 3. while loop: 
+Repeats code while a condition is true.
 
 `var count = 1
 while count <= 3 {
@@ -58,14 +74,16 @@ while count <= 3 {
     count += 1
 }`
 
-4. for-in loop: Used to iterate over items in a collection.
+### 4. for-in loop: 
+Used to iterate over items in a collection.
 
 `let fruits = ["Apple", "Banana", "Cherry"]
 for fruit in fruits {
     print(fruit)
 }`
 
-5. repeat-while loop: Executes code at least once, then checks the condition.
+### 5. repeat-while loop: 
+Executes code at least once, then checks the condition.
 
 `var number = 1
 repeat {
@@ -73,8 +91,9 @@ repeat {
     number += 1
 } while number <= 3`
 
-Keywords:
-guard Statement: Used for early exit if a condition isn't met.
+## Keywords:
+### guard Statement: 
+Used for early exit if a condition isn't met.
 
 `func greet(person: String?) {
     guard let name = person else {
