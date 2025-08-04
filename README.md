@@ -9,7 +9,7 @@ Store values that never change after being set.
 		`let myValue = 34`
 
 ## DataTypes
-   │
+
 1. ├─ Int: Whole numbers (no decimals). `let age: Int = 25`
 2. ├─ Float: Small decimal numbers (less precision). `let price: Float = 19.99`
 3. ├─ Double: Decimal numbers with more precision. `let pi: Double = 3.14159`
