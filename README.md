@@ -53,7 +53,6 @@ default:
 3. while loop: Repeats code while a condition is true.
 
 `var count = 1
-
 while count <= 3 {
     print("Count is \(count)")
     count += 1
