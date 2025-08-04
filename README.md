@@ -2,44 +2,45 @@
 
 ## Variables: 
 Store values that can change during the program.
-		var myValue = 34
+		`var myValue = 34`
 
 ## Constant: 
 Store values that never change after being set.
-		let myValue = 34
+		`let myValue = 34`
 
 ## DataTypes
    │
-1. ├─ Int: Whole numbers (no decimals). let age: Int = 25
-2. ├─ Float: Small decimal numbers (less precision). let price: Float = 19.99
-3. ├─ Double: Decimal numbers with more precision. let pi: Double = 3.14159
-4. ├─ String: Text values. let name: String = "Swift"
-5. ├─ Bool: True or false values. let isLoggedIn: Bool = true
+1. ├─ Int: Whole numbers (no decimals). `let age: Int = 25`
+2. ├─ Float: Small decimal numbers (less precision). `let price: Float = 19.99`
+3. ├─ Double: Decimal numbers with more precision. `let pi: Double = 3.14159`
+4. ├─ String: Text values. `let name: String = "Swift"`
+5. ├─ Bool: True or false values. `let isLoggedIn: Bool = true`
 6. ├─ Swift boolean
-7. ├─ Optional: Can hold a value or nil (no value). var email: String? = nil
+7. ├─ Optional: Can hold a value or nil (no value). `var email: String? = nil`
 8. (Collections)
-    1. ├─ Array: Ordered list of values. let numbers: [Int] = [1, 2, 3]
-    2. ├─ Tuple: Group of different values in one. let person = ("John", 25)
-    3. ├─ Dictionary: Key-value pairs. let user = ["name": "Alice", "age": "30"]
-    4. └─ Set: Unordered unique values. let colors: Set = ["red", "blue", "green"]
+    1. ├─ Array: Ordered list of values. `let numbers: [Int] = [1, 2, 3]`
+    2. ├─ Tuple: Group of different values in one. `let person = ("John", 25)`
+    3. ├─ Dictionary: Key-value pairs. `let user = ["name": "Alice", "age": "30"]`
+    4. └─ Set: Unordered unique values. `let colors: Set = ["red", "blue", "green"]`
 
 —————————————————————————————————————————
 
 ## Control Flow
  
 1. if-else Statement: Used to run code based on conditions.
-let score = 85
 
+`let score = 85
 if score >= 90 {
     print("A grade")
 } else if score >= 80 {
     print("B grade")
 } else {
     print("Needs improvement")
-}
-2. switch Statement: Used to check a value against multiple cases.
-let day = "Monday"
+}`
 
+2. switch Statement: Used to check a value against multiple cases.
+
+`let day = "Monday"
 switch day {
 case "Monday":
     print("Start of the week")
@@ -47,30 +48,36 @@ case "Friday":
     print("Almost weekend")
 default:
     print("Just another day")
-}
+}`
+
 3. while loop: Repeats code while a condition is true.
-var count = 1
+
+`var count = 1
 
 while count <= 3 {
     print("Count is \(count)")
     count += 1
-}
-4. for-in loop: Used to iterate over items in a collection.
-let fruits = ["Apple", "Banana", "Cherry"]
+}`
 
+4. for-in loop: Used to iterate over items in a collection.
+
+`let fruits = ["Apple", "Banana", "Cherry"]
 for fruit in fruits {
     print(fruit)
-}
-5. repeat-while loop: Executes code at least once, then checks the condition.
-var number = 1
+}`
 
+5. repeat-while loop: Executes code at least once, then checks the condition.
+
+`var number = 1
 repeat {
     print("Number is \(number)")
     number += 1
-} while number <= 3
+} while number <= 3`
+
 Keywords:
 guard Statement: Used for early exit if a condition isn't met.
-func greet(person: String?) {
+
+`func greet(person: String?) {
     guard let name = person else {
         print("No name provided")
         return
@@ -94,8 +101,7 @@ for num in 1...5 {
 return: Exits a function and optionally returns a value.
 func square(of number: Int) -> Int {
     return number * number
-}
-
+}`
 
 ## Control Flow:
 
