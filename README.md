@@ -1,9 +1,11 @@
 #  Swift Basics (case-sensitive language)
 
-## Variables: Store values that can change during the program.
+## Variables: 
+Store values that can change during the program.
 		var myValue = 34
 
-## Constant: Store values that never change after being set.
+## Constant: 
+Store values that never change after being set.
 		let myValue = 34
 
 ## DataTypes
