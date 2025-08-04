@@ -1,12 +1,12 @@
-#Swift Basics (case-sensitive language)
+#  Swift Basics (case-sensitive language)
 
-##Variables: Store values that can change during the program.
+## Variables: Store values that can change during the program.
 		var myValue = 34
 
-##Constant: Store values that never change after being set.
+## Constant: Store values that never change after being set.
 		let myValue = 34
 
-##DataTypes
+## DataTypes
  │
 1. ├─ Int: Whole numbers (no decimals). let age: Int = 25
 2. ├─ Float: Small decimal numbers (less precision). let price: Float = 19.99
@@ -23,7 +23,7 @@
 
 —————————————————————————————————————————
 
-##Control Flow
+## Control Flow
  
 1. if-else Statement: Used to run code based on conditions.
 let score = 85
@@ -95,7 +95,7 @@ func square(of number: Int) -> Int {
 }
 
 
-##Control Flow:
+## Control Flow:
 
 | Keyword       | Definition                                             |
 | ------------- | ------------------------------------------------------ |
@@ -116,7 +116,7 @@ func square(of number: Int) -> Int {
 
 ---
 
-##Declarations & Types:
+## Declarations & Types:
 
 | Keyword          | Definition                                    |
 | ---------------- | --------------------------------------------- |
@@ -140,7 +140,7 @@ func square(of number: Int) -> Int {
 
 ---
 
-##Access Control:
+## Access Control:
 
 | Keyword       | Definition                                      |
 | ------------- | ----------------------------------------------- |
@@ -151,7 +151,7 @@ func square(of number: Int) -> Int {
 | `open`        | Like `public`, but subclassable outside module. |
 
 
-##Memory Management:
+## Memory Management:
 
 | Keyword   | Definition
 | --------- 	 | ------------------------------------------------- 
@@ -168,7 +168,7 @@ func square(of number: Int) -> Int {
 | `defer` 	 | Runs code right before scope exits.
 
 
-##Miscellaneous:
+## Miscellaneous:
 
 | Keyword     | Definition
 | ----------- | --------------------------------------
