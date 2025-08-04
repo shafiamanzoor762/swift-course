@@ -41,6 +41,7 @@ if score >= 90 {
 }
 ```
 
+```
 let score = 85
 
 if score >= 90 {
@@ -50,7 +51,7 @@ if score >= 90 {
 } else {
     print("Needs improvement")
 }
-
+```
 
 ### 2. switch Statement: 
 Used to check a value against multiple cases.
