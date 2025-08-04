@@ -112,21 +112,31 @@ func greet(person: String?) {
     }
     print("Hello, \(name)!")
 }
-break: Stops the loop or switch early.
+```
+### break: 
+Stops the loop or switch early.
+
+```
 for num in 1...5 {
     if num == 3 {
         break
     }
     print(num)
 }
-continue: Skips the current loop iteration.
+```
+### continue: 
+Skips the current loop iteration.
+```
 for num in 1...5 {
     if num == 3 {
         continue
     }
     print(num)
 }
-return: Exits a function and optionally returns a value.
+```
+### return: 
+Exits a function and optionally returns a value.
+```
 func square(of number: Int) -> Int {
     return number * number
 }
