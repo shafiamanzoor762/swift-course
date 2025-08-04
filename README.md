@@ -55,7 +55,8 @@ if score >= 90 {
 ### 2. switch Statement: 
 Used to check a value against multiple cases.
 
-`let day = "Monday"
+```
+let day = "Monday"
 switch day {
 case "Monday":
     print("Start of the week")
@@ -63,39 +64,47 @@ case "Friday":
     print("Almost weekend")
 default:
     print("Just another day")
-}`
+}
+```
 
 ### 3. while loop: 
 Repeats code while a condition is true.
 
-`var count = 1
+```
+var count = 1
 while count <= 3 {
     print("Count is \(count)")
     count += 1
-}`
+}
+```
 
 ### 4. for-in loop: 
 Used to iterate over items in a collection.
 
-`let fruits = ["Apple", "Banana", "Cherry"]
+```
+let fruits = ["Apple", "Banana", "Cherry"]
 for fruit in fruits {
     print(fruit)
-}`
+}
+```
 
 ### 5. repeat-while loop: 
 Executes code at least once, then checks the condition.
 
-`var number = 1
+```
+var number = 1
 repeat {
     print("Number is \(number)")
     number += 1
-} while number <= 3`
+} while number <= 3
+```
 
 ## Keywords:
 ### guard Statement: 
 Used for early exit if a condition isn't met.
 
-`func greet(person: String?) {
+```
+func greet(person: String?) {
     guard let name = person else {
         print("No name provided")
         return
@@ -119,7 +128,8 @@ for num in 1...5 {
 return: Exits a function and optionally returns a value.
 func square(of number: Int) -> Int {
     return number * number
-}`
+}
+```
 
 ## Control Flow:
 
